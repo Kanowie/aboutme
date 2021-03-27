@@ -1,0 +1,61 @@
+body {
+    font-size: 16px;
+}
+/*header*/
+header{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: rgb(196, 245, 253);
+}
+
+h1{ 
+    color:black;
+    font-size:50px;
+    margin: 10px;
+    padding: 10px;
+    text-align:left;
+   }
+
+nav a {
+    text-decoration-line: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 100ms;
+    float: right;
+    overflow: hidden;
+}
+nav ul {
+    text-align: center;
+}
+nav li {
+    display: inline;
+    transition-property: color;
+    transition-duration: 100ms;
+}
+nav a:hover {
+    background-color: #edfffb;
+}
+/*bio*/
+main{
+    height: auto;
+}
+p{
+    line-height: 4.5px;
+    margin: 10px;
+    padding: 10px;
+}
+#hp  {
+   float: right;    
+   margin: 0 0 0 15px;
+}
+hr{
+    width: 65%;
+}
+h2{
+    margin: 10px;
+    padding: 10px;
+}
