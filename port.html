@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <body>
+    
     <head>
       <title>About Me</title>
       <link href="resources/css/port.css" type="text/css" rel="stylesheet"> 
       <script src="https://kit.fontawesome.com/1d7fadc367.js" crossorigin="anonymous"></script>
     </head>
+    <body>
     <!--header-->
     <header>
         <h1>Nelson Abdo</h1>
@@ -25,7 +26,7 @@
     </header>
     <!--bio-->
     <main>
-        <p><embed src="resources/css/img/strongman.jpg" alt="Strong-man" height=500px width=500px id="hp">Hello world! I am Nelson Abdo, an aspiring web developer. Learned to code at the ripe age of 27, better late than never.
+        <p><embed src="resources/css/img/strongman.jpg" alt="Strong-man" height=500px width=500px id="hp" -webkit-background-clip: text>Hello world! I am Nelson Abdo, an aspiring web developer. Learned to code at the ripe age of 27, better late than never.
         I've dedicated half of 2020 (middle of the global pandamic) to study and learn HTML/CSS and javascript. It definetly has not been an easy task but an enjoyable one.
         In the near future I hope to work with a full team and continue to learn under likeminded people who strive for the best and keep pushing.</p>
         <p>Before getting into web development I was a strength coach in my local community with a handful of dedicated folks studying and traning under me.
@@ -38,8 +39,8 @@
     <section>
         <h2>Projects</h2>
         <ol>
-            <li>Josies Panther Claws</li>
-            <li>Weekly Workouts</li>
+            <li id="project-list">Josies Panther Claws</li>
+            <li id="project-list">Weekly Workouts</li>
         </ol>
     </section>
     <hr>
@@ -47,15 +48,17 @@
     <section>
         <h2>Skills</h2>
         <ol>
-            <li>HTML<i class="fab fa-html5" fa-5x></i></li>
-            <li>CSS<i class="fab fa-css3-alt"></i></li>
-            <li>Javascript<i class="fab fa-js"></i></li>
-            <li><em>Some</em>Vue<i class="fab fa-vuejs"></i></li>
+            <li id="skill-set">HTML<i class="fab fa-html5" fa-5x></i></li>
+            <li id="skill-set">CSS<i class="fab fa-css3-alt"></i></li>
+            <li id="skill-set">Javascript<i class="fab fa-js"></i></li>
+            <li id="skill-set"><em>Some</em>Vue<i class="fab fa-vuejs"></i></li>
         </ol>
     </section>
     <!--contact me for the new job-->
-    <a ig="dagit" href="http://github.com/Kanowie"><i class="fab fa-github fa-3x"></i></a>
-    <a id="ig" href="http://instagram.com/nelson613"><i class="fab fa-instagram fa-3x"></i></a>
-    <a id="tweeter" href="http://twitter.com/@nelson4reals"><i class="fab fa-twitter fa-3x"></i></a>
+    <footer>
+        <a id="contact-me" href="http://github.com/Kanowie"><i class="fab fa-github fa-3x"></i></a>
+        <a id="contact-me" href="http://instagram.com/nelson613"><i class="fab fa-instagram fa-3x"></i></a>
+        <a id="contact-me" href="http://twitter.com/@nelson4reals"><i class="fab fa-twitter fa-3x"></i></a>
+    </footer>
 </body>
 </html>
